@@ -1,4 +1,6 @@
-package ObjectProject;
+package ObjectProjectTest;
+
+import ObjectProject.Person;
 
 public class PersonTest {
     public static void main(String[] args) {

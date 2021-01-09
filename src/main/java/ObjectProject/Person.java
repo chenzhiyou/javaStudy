@@ -1,9 +1,9 @@
 package ObjectProject;
 
 public class Person {
-    String name;
-    int age;
-    String grade;
+    public String name;
+    public int age;
+    public String grade;
 
     public void student(){
         System.out.println("我是一名学生");
