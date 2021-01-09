@@ -19,6 +19,12 @@ public class Cat {
         this.weigeht = weigeht;
         this.species =species;
     }
+
+    //虽然是没有语法错误，但是不建议这么写
+    public void Cat(){
+        System.out.println("我是一个无参无返回值的普通方法");
+    }
+
     public void run(String name){
         System.out.println(name + "小猫会跑");
     }

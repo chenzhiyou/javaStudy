@@ -17,6 +17,8 @@ public class CatTest {
         one.run(one.name);
         one.eat();
 
+        one.Cat();
+
         System.out.println("名字"+one.name);
         System.out.println("年龄"+one.month);
         System.out.println("体重"+one.weigeht);
