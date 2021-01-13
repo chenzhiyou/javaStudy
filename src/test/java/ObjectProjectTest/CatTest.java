@@ -14,15 +14,15 @@ public class CatTest {
 //        one.species="英国短毛猫";
 //        one.weigeht = 12.5;
 
-        one.run(one.name);
+//        one.run(one.name);
         one.eat();
 
         one.Cat();
 
-        System.out.println("名字"+one.name);
-        System.out.println("年龄"+one.month);
-        System.out.println("体重"+one.weigeht);
-        System.out.println("品种"+one.species);
+        System.out.println("名字"+one.getName());
+        System.out.println("年龄"+one.getMonth());
+        System.out.println("体重"+one.getWeigeht());
+        System.out.println("品种"+one.getSpecies());
 
 
     }

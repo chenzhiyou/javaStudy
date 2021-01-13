@@ -2,10 +2,50 @@ package ObjectProject;
 
 public class Cat {
     //成员属性: 昵称、年龄、体重、品种
-    public String name;
-    public int month;
-    public double weigeht;
-    public String species;
+    //修改为private 限定只能在当前类内进行访问
+    private String name;
+    private int month;
+    private double weigeht;
+    private String species;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public void setMonth(int month) {
+        if(month<=0){
+            System.out.println("年龄输入不正确");
+        }else{
+            this.month = month;
+        }
+
+    }
+
+    public double getWeigeht() {
+        return weigeht;
+    }
+
+    public void setWeigeht(double weigeht) {
+        this.weigeht = weigeht;
+    }
+
+    public String getSpecies() {
+        return species;
+    }
+
+    public void setSpecies(String species) {
+        this.species = species;
+    }
+
+
     //方法跑动、吃东西
     public Cat(){
         System.out.println("我是无参构造方法");
