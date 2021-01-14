@@ -18,6 +18,7 @@ public class CatTest {
         one.eat();
 
         one.Cat();
+        one.prices=200;
 
         System.out.println("名字"+one.getName());
         System.out.println("年龄"+one.getMonth());

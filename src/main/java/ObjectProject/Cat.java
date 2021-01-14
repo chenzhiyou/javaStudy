@@ -8,6 +8,8 @@ public class Cat {
     private double weigeht;
     private String species;
 
+    public static int prices;
+
     public String getName() {
         return name;
     }
