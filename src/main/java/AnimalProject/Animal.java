@@ -41,4 +41,16 @@ public class Animal {
         System.out.println(name+"吃东西");
     }
 
+    public boolean equals(Object obj){
+        if(obj == null){
+            return false;
+        }
+        Animal temp = (Animal)obj;
+        if (this.getName().equals(temp.getName())&&(this.getMonth()==temp.getMonth())){
+            return true;
+        }else {
+            return false;
+        }
+    }
+    
 }

@@ -1,5 +1,6 @@
 package AnimaliProjectTest;
 
+import AnimalProject.Animal;
 import AnimalProject.Cat;
 import AnimalProject.Dog;
 
