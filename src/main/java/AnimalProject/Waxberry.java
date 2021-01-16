@@ -28,7 +28,4 @@ public final class Waxberry extends Fruist{
         String str = this.getShape()+ this.getColor()+this.getTaste();
         return str;
     }
-
-
-
 }
