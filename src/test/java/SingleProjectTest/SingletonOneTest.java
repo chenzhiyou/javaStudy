@@ -9,5 +9,11 @@ public class SingletonOneTest {
         System.out.println(one==two);
         System.out.println(one);
         System.out.println(two);
+        System.out.println("================");
+        SingletonOne three = SingletonOne.getInstance();
+        SingletonOne four = SingletonOne.getInstance();
+        System.out.println(three==four);
+        System.out.println(three);
+        System.out.println(four);
     }
 }
