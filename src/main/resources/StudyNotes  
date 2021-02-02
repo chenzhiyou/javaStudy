@@ -211,6 +211,18 @@ instanceof 运算符：返回true/false
     类在定义后马上用到
     给类命名并不会导致代码不会更容易被理解
 
+异常：
+error：虚拟机错误（VirtualMachineError）、内存溢出（OutOfMemoryError）、线程死锁（ThreadDeath）
+Exception：是程序本身可以处理的异常。异常处理通常只对这种类型异常的处理
+异常处理通过5个关键字来实现：try、catch、finally、throw、throws
+捕获异常：try：执行可能产生异常的代码
+         catch：捕获异常
+         finally：无论是否发生异常代码总能执行
+声明异常：throws：声明可能要抛出的异常
+抛出异常：throw：手动抛出异常
+try-catch-finally
+    try块后可接零个或多个catch块，如果没有catch块，则必须跟一个finally块
+
 
 
 
